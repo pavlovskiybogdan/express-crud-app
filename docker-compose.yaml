@@ -16,8 +16,8 @@ services:
   postgres:
     image: postgres:10.4
     ports:
-      - "5432:5432"
+      - "15432:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 1111
-      POSTGRES_DB: crud_test
+      POSTGRES_DB: postgres
