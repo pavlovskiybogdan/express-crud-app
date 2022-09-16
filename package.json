@@ -23,7 +23,7 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "start": "rimraf ./dist && babel -d ./dist ./src -s && node ./dist/app.js",
+    "start": "rimraf ./dist && babel -d ./dist ./src && node ./dist/app.js",
     "dev": "nodemon dev.js",
     "lint": "eslint ./src"
   },
